@@ -1,0 +1,22 @@
+To-Do list 
+
+**Data fixing**
+
+1) Fix Data Upload - by 18 July 
+A) Fix kernel crash due to pull - done, 18 July
+B) Fix data fragmentation post-download - done, 18 July
+C) Fix data merging with fragmented macro SQL database - done, 18 July 
+D) Fix interaction bug - done, 18 July
+
+**Develop the NN code**
+
+1) Set up ranks, 18 July
+2) Pin down the 5 NNs they authors used - done, 19 July 
+3) Fix the NaN dropping that messed up the OOS loop - done, 19 July 
+4) Not working on larger sample, limit to 2 models (4 and 5 = best performing) and then - done, 20 July
+5) Get server access because full is not running that well - done, 21 July – running now
+
+**Loss function**
+
+1) Re-read paper - done, July 20
+2) Go through math implementation and code skeleton - goal: July 22
