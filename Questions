@@ -1,4 +1,4 @@
-Questions [gradually adding]:
+Questions [gradually adding, last updated 23 July]:
 
 1) I could add a lot of portfolio optimization to the NN to make it more realistic. In particular, I was thinking I could try to add some factor neutrality, dollar neutrality, slippage, max position size constraints, etc. I feel like, while the KGX paper is great, they don't do much typical risk management. 
 
