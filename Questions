@@ -1,0 +1,14 @@
+Questions [gradually adding]:
+
+1) I could add a lot of portfolio optimization to the NN to make it more realistic. In particular, I was thinking I could try to add some factor neutrality, dollar neutrality, slippage, max position size constraints, etc. I feel like, while the KGX paper is great, they don't do much typical risk management. 
+
+The benefit to this is that it is more realistic and could show how real hedge funds could use this (in fact, BAM in NYC is actually doing almost exactly the same project as us now!). The drawback is that the potential marginal effect of the novel loss funciton will be eaten away by the other risk controls. 
+
+I personally don't think that is a drawback, it's just a more honest depiction of reality. 
+
+2) For the VaR/CVaR/EVaR loss functions, which confidence levels do we care about — 90 %, 95 %, 99 %? I was thinking I could try run it on all three, but it's just very computationally intensive and will take a long time. 
+
+3) Do we combine tail‑risk loss with a Sharpe‑style reward to prevent the network from becoming over‑conservative?
+
+4) How should we visualise or report these tail‑loss curves so the benefits over MSE are clear? I am happy to think of something but was wondering if there is just something specific you had in mind.
+
