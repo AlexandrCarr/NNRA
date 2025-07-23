@@ -19,4 +19,14 @@ D) Fix interaction bug - done, 18 July
 **Loss function**
 
 1) Re-read paper - done, July 20
-2) Go through math implementation and code skeleton - goal: July 22
+2) Math tasks 
+  A) Read up on KL and Wasserstein balls - done, 19 July
+  B) Explore application of KL and Wasserstein balls to VaR and CVaR measure - done, 21 July
+  C) Explore other shortfall methods we mentioned in Adv Analytics (expected shortfall and maybe variations of it) - done, 22 July
+  D) Synthesize all notes into LaTeX - done, 23 July
+  E) Formulatea differentiable and smooth loss functions based on this - done, 23 July
+  F) Read about the adversarial structure that papers are mentioning, Nature's Distribution x Our Distribution - done, 22 July
+
+
+**Implementation stage II**
+1) Implement 5 loss functions into the NN 
