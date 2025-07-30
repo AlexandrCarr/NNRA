@@ -29,4 +29,6 @@ D) Fix interaction bug - done, 18 July
 
 
 **Implementation stage II**
-1) Implement 5 loss functions into the NN 
+1) Implement 5 loss functions into the NN - done, 24 July 
+2) Implement more, 5 did not perform that well - done 29/30 July 
+3) Experiment with multiple NN structures - done 29/30 July
